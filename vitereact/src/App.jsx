@@ -1,9 +1,16 @@
+import Chai from "./Chai.jsx";
 
 function App() {
 
-  return (
-  <h1>Mastering React!</h1>
-  )
+  const user = "sid"
+
+  return (    
+    <>
+    <Chai />
+    <h1>Welcome {user}</h1>
+    </>
+  );
+
 }
 
 export default App
