@@ -14,7 +14,10 @@ function App() {
     set_counter(10)
     }
     else{
-    set_counter(counter + 1)
+    set_counter(counter => counter + 1)
+    // set_counter(counter => counter + 1)
+    // set_counter(counter => counter + 1)
+    // set_counter(counter => counter + 1)
     }
   }
 
