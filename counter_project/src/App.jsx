@@ -21,7 +21,7 @@ function App() {
   const sub_value = () => {
     if(counter === 0 ){
       set_counter(0)
-      }
+      } 
       else{
       set_counter(counter - 1)
       }
