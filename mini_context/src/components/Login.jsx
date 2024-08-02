@@ -34,7 +34,11 @@ function Login() {
         />
         <button 
         style={{backgroundColor : 'pink' }} 
-        onClick={submit_function} >Submit</button>
+        onClick={submit_function}//() => {
+          //set_username(temp_username)
+          //set_password(temp_password)
+        //}}
+         >Submit</button>
     </div>
   )
 }
